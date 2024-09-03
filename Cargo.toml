@@ -1,0 +1,12 @@
+[package]
+name = "webapp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = "0.5.1"
+rocket_contrib = "0.4.11"
+
+[default]
+address = "127.0.0.1"
+port = 7878

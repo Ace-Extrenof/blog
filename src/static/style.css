@@ -1,0 +1,25 @@
+* {
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+    font-size: 1.15em;
+    font-family: "Fira Code", monospace;
+    background-color: #131515;
+    color: #d5c4a1;
+}
+
+@font-face {
+    font-family: "Fira Code";
+    src: url('FiraCode-Regular.ttf') format('truetype');
+}
+
+a {
+    text-decoration: none;
+    color: #83a598;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #7a8716;
+}
