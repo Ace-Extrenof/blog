@@ -12,6 +12,20 @@
 @font-face {
     font-family: "Fira Code";
     src: url('FiraCode-Regular.ttf') format('truetype');
+
+    font-family: "Fira Code Bold";
+    src: url('ttf/FiraCode-SemiBold.ttf') format('truetype');
+}
+
+h1 {
+    font-size: 2em;
+    color: #7a8601;
+    font-family: "Fira Code Bold";
+}
+
+.italic {
+    font-style: italic;
+    color: #89b482;
 }
 
 a {
@@ -22,4 +36,13 @@ a {
 
 a:hover {
   color: #7a8716;
+}
+
+.article {
+    color: #f28534;
+    transition: color 0.3s ease-in-out;
+}
+
+.article:hover {
+  color: #a89984;
 }
